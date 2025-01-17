@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhan Kumar | Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Madhan Kumar P</h1>
+        <p>Technical Analyst | PLSQL Developer | 6+ Years of Experience</p>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am an experienced Technical Analyst with over 6 years of expertise in SQL, PL/SQL, Unix, and Shell Scripting. I specialize in database development, performance optimization, and data integration. My experience spans Oracle, SQL Server, and data virtualization tools like Denodo.</p>
+
+            <h2>Professional Summary</h2>
+            <ul>
+                <li>Proficient in Oracle PL/SQL development and performance tuning.</li>
+                <li>Experienced in SQL Server, SSIS, SSRS, and SSAS.</li>
+                <li>Strong understanding of Agile methodologies and team collaboration.</li>
+            </ul>
+
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Databases: Oracle 10g, 11g, 12c | SQL Server</li>
+                <li>Tools: SQL Developer, TOAD, Git, Denodo</li>
+                <li>Operating Systems: Windows, Linux</li>
+            </ul>
+
+            <h2>Projects</h2>
+            <h3>Carters (Aug 2023 - May 2024)</h3>
+            <p>A retail project focused on streamlining inventory and sales tracking. Involved in developing stored procedures, triggers, and SQL queries.</p>
+
+            <h3>Staples (Aug 2020 - Jul 2023)</h3>
+            <p>Worked on enhancing office retail systems with Oracle PL/SQL development. Handled error management, unit testing, and SQL tuning.</p>
+
+            <h3>DSI Manifest Invoice Generator (Mar 2018 - Jun 2020)</h3>
+            <p>Logistics project focusing on temperature-sensitive materials. Developed procedures for data tracking and optimized query performance.</p>
+
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:p.madhankumar2023@gmail.com">p.madhankumar2023@gmail.com</a></p>
+            <p>Phone: 9591684889</p>
+            <p>Location: Bangalore, India</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Madhan Kumar P. All rights reserved.</p>
+    </footer>
+</body>
+</html>
