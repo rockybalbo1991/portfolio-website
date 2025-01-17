@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhan Kumar Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+            margin: 0 auto;
+            max-width: 900px;
+            background: white;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1, h2 {
+            color: #0073e6;
+        }
+        .image {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .image img {
+            border-radius: 50%;
+            max-width: 150px;
+        }
+        .contact a {
+            color: #0073e6;
+            text-decoration: none;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Madhan Kumar Portfolio</h1>
+        <p>Technical Analyst | PLSQL Developer</p>
+    </header>
+
+    <section>
+        <div class="image">
+            <img src="path/to/your/image.jpg" alt="Madhan Kumar">
+        </div>
+        <h2>About Me</h2>
+        <p>I am Madhan Kumar, a Technical Analyst with over 6 years of experience specializing in SQL, PLSQL, Unix, and Shell Scripting. Proficient in Oracle 10g, 11g, and 12c, with expertise in database development, performance tuning, and more.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>SQL, PLSQL Development</li>
+            <li>Oracle 10g/11g/12c</li>
+            <li>SSIS, SSRS, SSAS</li>
+            <li>Unix, Shell Scripting</li>
+            <li>Performance Tuning</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        <h3>PLSQL Developer | Carters</h3>
+        <p>August 2023 - May 2024</p>
+        <p>Developed robust database solutions for retail operations, ensuring real-time stock updates and personalized customer service.</p>
+        <h3>SQL Developer | Staples</h3>
+        <p>August 2020 - July 2023</p>
+        <p>Enhanced system efficiency by developing complex stored procedures and optimizing SQL queries.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>B.Com in Computers from Yogi Vemana University, Kadapa, A.P.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:p.madhankumar2023@gmail.com">p.madhankumar2023@gmail.com</a></p>
+        <p>Phone: 9591684889</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Madhan Kumar. All rights reserved.</p>
+    </footer>
+</body>
+</html>
