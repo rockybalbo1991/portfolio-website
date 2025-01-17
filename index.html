@@ -3,109 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madhan Kumar | Portfolio</title>
+    <title>Madhan Kumar Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
         }
         header {
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
+            background-color: #0073e6;
+            color: white;
+            padding: 1rem 0;
             text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5rem;
-        }
-        header p {
-            margin: 10px 0 0;
-            font-size: 1.2rem;
         }
         section {
-            padding: 20px;
-        }
-        .container {
-            max-width: 800px;
+            padding: 2rem;
             margin: 0 auto;
+            max-width: 900px;
+            background: white;
+            margin-bottom: 1rem;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
         }
-        h2 {
-            color: #333;
-            border-bottom: 2px solid #333;
-            padding-bottom: 5px;
+        h1, h2 {
+            color: #0073e6;
         }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            margin-bottom: 10px;
-        }
-        footer {
-            background: #333;
-            color: #fff;
+        .image {
             text-align: center;
-            padding: 10px 0;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
+            margin-bottom: 2rem;
         }
-        a {
-            color: #0066cc;
+        .image img {
+            border-radius: 50%;
+            max-width: 150px;
+        }
+        .contact a {
+            color: #0073e6;
             text-decoration: none;
         }
-        a:hover {
-            text-decoration: underline;
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Madhan Kumar P</h1>
-        <p>Technical Analyst | PLSQL Developer | 6+ Years of Experience</p>
+        <h1>Madhan Kumar Portfolio</h1>
+        <p>Technical Analyst | PLSQL Developer</p>
     </header>
 
     <section>
-        <div class="container">
-            <h2>About Me</h2>
-            <p>I am an experienced Technical Analyst with over 6 years of expertise in SQL, PL/SQL, Unix, and Shell Scripting. I specialize in database development, performance optimization, and data integration. My experience spans Oracle, SQL Server, and data virtualization tools like Denodo.</p>
-
-            <h2>Professional Summary</h2>
-            <ul>
-                <li>Proficient in Oracle PL/SQL development and performance tuning.</li>
-                <li>Experienced in SQL Server, SSIS, SSRS, and SSAS.</li>
-                <li>Strong understanding of Agile methodologies and team collaboration.</li>
-            </ul>
-
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Databases: Oracle 10g, 11g, 12c | SQL Server</li>
-                <li>Tools: SQL Developer, TOAD, Git, Denodo</li>
-                <li>Operating Systems: Windows, Linux</li>
-            </ul>
-
-            <h2>Projects</h2>
-            <h3>Carters (Aug 2023 - May 2024)</h3>
-            <p>A retail project focused on streamlining inventory and sales tracking. Involved in developing stored procedures, triggers, and SQL queries.</p>
-
-            <h3>Staples (Aug 2020 - Jul 2023)</h3>
-            <p>Worked on enhancing office retail systems with Oracle PL/SQL development. Handled error management, unit testing, and SQL tuning.</p>
-
-            <h3>DSI Manifest Invoice Generator (Mar 2018 - Jun 2020)</h3>
-            <p>Logistics project focusing on temperature-sensitive materials. Developed procedures for data tracking and optimized query performance.</p>
-
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:p.madhankumar2023@gmail.com">p.madhankumar2023@gmail.com</a></p>
-            <p>Phone: 9591684889</p>
-            <p>Location: Bangalore, India</p>
+        <div class="image">
+            <img src="path/to/your/image.jpg" alt="Madhan Kumar">
         </div>
+        <h2>About Me</h2>
+        <p>I am Madhan Kumar, a Technical Analyst with over 6 years of experience specializing in SQL, PLSQL, Unix, and Shell Scripting. Proficient in Oracle 10g, 11g, and 12c, with expertise in database development, performance tuning, and more.</p>
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>SQL, PLSQL Development</li>
+            <li>Oracle 10g/11g/12c</li>
+            <li>SSIS, SSRS, SSAS</li>
+            <li>Unix, Shell Scripting</li>
+            <li>Performance Tuning</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Professional Experience</h2>
+        <h3>PLSQL Developer | Carters</h3>
+        <p>August 2023 - May 2024</p>
+        <p>Developed robust database solutions for retail operations, ensuring real-time stock updates and personalized customer service.</p>
+        <h3>SQL Developer | Staples</h3>
+        <p>August 2020 - July 2023</p>
+        <p>Enhanced system efficiency by developing complex stored procedures and optimizing SQL queries.</p>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <p>B.Com in Computers from Yogi Vemana University, Kadapa, A.P.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:p.madhankumar2023@gmail.com">p.madhankumar2023@gmail.com</a></p>
+        <p>Phone: 9591684889</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Madhan Kumar P. All rights reserved.</p>
+        <p>&copy; 2025 Madhan Kumar. All rights reserved.</p>
     </footer>
 </body>
 </html>
